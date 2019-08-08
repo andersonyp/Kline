@@ -160,7 +160,6 @@ export default {
       for (var i = 0; i < arr.length; i++) {
         yData.push(arr[i][0])
       }
-      xData.push('08:01')
 
       option = {
         tooltip: {
@@ -295,10 +294,13 @@ export default {
         } else {
           yData.shift()
           yData.push(mess)
-          xData.push('08:01')
         }
 
-        
+        var axisData = (new Date()).toLocaleTimeString().replace(/^\D*/,'');
+
+        option.xAxis.data.shift()
+        option.xAxis.data.push(axisData)
+
         option = {
           tooltip: {
             trigger: 'axis',
@@ -425,7 +427,7 @@ export default {
           ]
         }
         myChart.setOption(option)
-      }, 1000)
+      }, 2000)
     },
 
     // 绘制K线图
