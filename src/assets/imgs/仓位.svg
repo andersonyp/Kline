@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>仓位-选中</title>
+    <desc>Created with Sketch.</desc>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="首页" transform="translate(-255.000000, -1241.000000)" fill="#108EE9">
+            <g id="仓位-选中" transform="translate(255.000000, 1241.000000)">
+                <path d="M9.52380952,0.952380952 L9.52380952,10.4761905 L19.047619,10.4761905 C19.047619,15.7360452 14.7836643,20 9.52380952,20 C4.26395476,20 0,15.7360452 0,10.4761905 C0,5.21633572 4.26395476,0.952380952 9.52380952,0.952380952 Z" id="合并形状-copy-5"></path>
+                <path d="M11.4285714,0 C16.1624407,0 20,3.83755929 20,8.57142857 L11.4285714,8.57142857 L11.4285714,0 Z" id="合并形状"></path>
+            </g>
+        </g>
+    </g>
+</svg>
